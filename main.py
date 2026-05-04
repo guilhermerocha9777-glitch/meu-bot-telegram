@@ -2,7 +2,7 @@ import os
 import telebot
 
 TOKEN = os.getenv("TELEGRAM_TOKEN")
-print("TOKEN LIDO:", repr(TOKEN))  # linha de debug
+print("TOKEN LIDO:", repr(TOKEN))
 
 bot = telebot.TeleBot(TOKEN)
 
